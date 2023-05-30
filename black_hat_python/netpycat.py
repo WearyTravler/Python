@@ -116,7 +116,7 @@ def client_sender(buffer):
                         print(response),
 
                         # wait for more input
-                        buffer = raw_input("")
+                        buffer = input("")
                         buffer += "\n"
 
                         # send it off
